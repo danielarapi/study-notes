@@ -1,0 +1,7 @@
+---
+
+platform: "ios"
+username: "username"
+password: "password"
+data:
+    ntp_server: x.x.x.x
