@@ -26,11 +26,8 @@ touch config.yaml, groups.yaml, hosts.yaml, defaults.yaml, runbook1.py
 - ***Note:*** Do this inside the virtual environment
 ```
 pip install --upgrade pip  
-python3 -m pip install nornir  
-python3 -m pip install nornir-utils
-python3 -m pip install nornir_scrapli
-python3 -m pip install nornir_netmiko
-python3 -m pip install nornir_napalmpip freeze  
+python3 -m pip install nornir nornir-utils nornir_scrapli nornir_netmiko nornir_napalm
+pip freeze  
 ```
 
  **Order of Operations**  
